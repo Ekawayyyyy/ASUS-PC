@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <Link href="https://instagram.com/ekwdmynti" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 Instagram
               </Link>
             </li>
