@@ -35,16 +35,11 @@ const Navbar = () => {
           EKA
           <span className="text-yellow-300">WAY</span>
         </h1>
-
-       
         <div className="nav-link">  <Link href="/" className="text-white">Home</Link></div>
         <div className="nav-link">  <Link href="/about" className="text-white">About</Link></div>
         <div className="nav-link">  <Link href="/education" className="text-white">Education</Link></div>
         <div className="nav-link">  <Link href="/experience" className="text-white">Experience</Link></div>
         <div className="nav-link">  <Link href="/contact" className="text-white">Contact</Link></div>
-        <div>
-          {/* <Bars3Icon className="w-[2rem] md:hidden h-[2rem]  cursor-pointer text-yellow 300"/> */}
-        </div>
       </div>
     </div>
   );

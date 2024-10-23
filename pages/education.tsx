@@ -1,4 +1,6 @@
 // pages/education.tsx
+'use client';
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
@@ -43,7 +45,7 @@ const Education = () => {
             {educationData.map((item) => (
               <div
                 key={item.id}
-                className="bg-white bg-opacity-60 backdrop-blur-lg shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105"
+                className="bg-white bg-opacity-60 shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105"
               >
                 <h2 className="text-2xl font-bold text-gray-800">{item.title}</h2>
                 <p className="text-sm text-gray-500">{item.institution}</p>
@@ -55,6 +57,7 @@ const Education = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

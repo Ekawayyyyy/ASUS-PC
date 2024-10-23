@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '@/components/Footer';
 
 const Contact: React.FC = () => {
   return (
@@ -54,6 +55,7 @@ const Contact: React.FC = () => {
         </button>
       </form>
     </div>
+    <Footer />
     </>
   );
 };
