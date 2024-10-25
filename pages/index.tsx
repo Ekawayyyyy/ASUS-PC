@@ -4,6 +4,7 @@ import Content from '@/components/Content';
 // import About from '@/pages/about';
 // import Timeline from '@/components/Timeline';
 import Footer from '@/components/Footer';
+import Timeline from './education';
 // import Education from './education';
 // import Contact from './contact';
 
@@ -13,6 +14,8 @@ const Home = () => {
     <>
       <Navbar />
       <Content />
+      
+      <Timeline />
       <Footer />
     </>
   );
