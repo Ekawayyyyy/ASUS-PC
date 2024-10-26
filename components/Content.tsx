@@ -23,7 +23,7 @@ const Content = () => {
 
         <div className="relative z-10 flex justify-center lg:justify-end">
           <Image
-            src="/images/fotoku.png" // Pastikan gambar Anda dalam format PNG tanpa background
+            src="/images/fotoku.PNG" // Pastikan gambar Anda dalam format PNG tanpa background
             alt="Profile Image"
             width={250} // Sesuaikan dengan ukuran gambar yang diinginkan
             height={250} // Sesuaikan dengan ukuran gambar yang diinginkan
