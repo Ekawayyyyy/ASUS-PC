@@ -76,7 +76,7 @@ import { FaInstagram, FaFacebook, FaGithub, FaLinkedin, } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-8 sticky z-[10000] mt-24 shadow-md">
+    <footer className="bg-black text-white py-8 sticky z-[10000] top-0 w-full mt-24 shadow-md">
       <div className="container mx-auto px-4 lg:px-20">
 
         <div className="flex justify-center mt-6 space-x-6 text-xl">

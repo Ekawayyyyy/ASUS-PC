@@ -1,16 +1,16 @@
 'use client';
-import Footer from '@/components/Footer';
 import Navbar from '../components/Navbar';
 import Image from 'next/image';
 import Particle from '../components/Particle';
 import Link from 'next/link';
+import Footer from '../components/Footer';
 
 const About = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center flex-grow">
-        <Particle />
         <Navbar />
+        <Particle />
         <main className="relative z-10 container mx-auto px-6 md:px-10 lg:px-20 py-10 bg-[#f5f5f5]">
           <div className="grid lg:grid-cols-2 items-center gap-8 lg:gap-20">
             <div className="flex justify-center lg:justify-end mb-6 lg:mb-0">
@@ -45,8 +45,8 @@ const About = () => {
             </div>
           </div>
         </main>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
