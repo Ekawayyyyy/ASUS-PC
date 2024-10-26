@@ -63,8 +63,10 @@
 // };
 
 // export default Education;
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import React from 'react';
+import Particle from '@/components/Particle';
 
 interface ExperienceItemProps {
   year: string;
@@ -84,19 +86,18 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({ year, title, location, 
     </div>
     {/* Year and circle */}
     <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gray-800 rounded-full border-4 border-gray-500"></div>
-    <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -mt-16 text-gray-400">
+    <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -mt-16 mr-16 text-gray-400">
       {year}
     </span>
   </div>
 );
 
 const Timeline: React.FC = () => {
-  <Navbar />
   const experiences = [
     {
       year: '2019',
-      title: 'Graduated Bootcamp',
-      location: 'Miami, FL',
+      title: 'UIN Alauddin Makassar',
+      location: 'S1 - Sistem Informasi',
       description: 'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
       isLeft: true,
     },
@@ -119,12 +120,14 @@ const Timeline: React.FC = () => {
   return (
     
     <>
-     <Navbar />
-     <div className="bg-gray-900 min-h-screen text-gray-200">
-      <h2 className="text-3xl font-bold text-center mt-8 mb-12">My Experience</h2>
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <Particle />
+    <Navbar />
+    <div className="bg-gray-900 text-gray-200 pt-12 ">
+      <h2 className="text-3xl font-bold text-center mb-12">My Education</h2>
       <div className="relative">
         {/* Timeline line */}
-        <div className="absolute w-1 bg-gray-500 left-1/2 transform -translate-x-1/2 h-full"></div>
+        <div className="absolute w-1 bg-gray-500 left-1/2 transform -translate-x-1/2 h-full mb-0"></div>
         {experiences.map((exp, index) => (
           <ExperienceItem 
             key={index} 
@@ -137,7 +140,9 @@ const Timeline: React.FC = () => {
         ))}
       </div>
     </div>
-    
+    <Footer />
+    </div>
+  
     </>
   );
 };
