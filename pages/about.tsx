@@ -16,7 +16,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2">
         <div className="flex-shrink-0 mb-6 lg:mb-20 lg:mr-10 lg:ml-40 lg:mt-10">
           <Image
-            src="/images/fotoku.png" // Ganti dengan path gambar yang sesuai
+            src="/images/fotoku.PNG" // Ganti dengan path gambar yang sesuai
             alt="Profile Image"
             width={250} // Sesuaikan ukuran gambar
             height={250} // Sesuaikan ukuran gambar
