@@ -1,32 +1,33 @@
 import React from 'react';
 import Particle from './Particle';
 import Image from 'next/image';
-import Link from 'next/link'; // Impor Link dari Next.js
+import Link from 'next/link';
 
 const Content = () => {
   return (
     <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
       <Particle />
-      <div className=" w-[80%] mx-auto grid lg:grid-cols-2 gap-[3rem] h-full items-center">
-        <div className="relative z-10">
-          <h1 className="text-[35px] font-bold md:text-[50px] text-black">
+      <div className="w-[90%] sm:w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[3rem] h-full items-center">
+        <div className="relative z-10 text-center lg:text-left">
+          <h1 className="text-[28px] sm:text-[35px] lg:text-[50px] font-bold text-black">
             HI, IM <span className="text-[#875300]">Ekaway</span>
           </h1>
-          <h3 className='text-black font-bold text-[20px]'> Junior Frontend Developer </h3>
-          {/* Tombol About Me */}
-          <Link href="/about"> {/* Ganti dengan path yang sesuai */}
-            <span className="mt-4 font-semibold inline-block px-6 py-2 text-black bg-[#875300] rounded hover:bg-yellow-600 transition duration-300 cursor-pointer">
+          <h3 className="text-black font-bold text-[16px] sm:text-[20px]">
+            Junior Frontend Developer
+          </h3>
+          <Link href="/about">
+            <span className="mt-4 font-semibold inline-block px-4 sm:px-6 py-2 text-black bg-[#875300] rounded hover:bg-yellow-600 transition duration-300 cursor-pointer">
               About Me
             </span>
           </Link>
         </div>
 
-        <div className="relative z-10 flex justify-center lg:justify-end">
+        <div className="relative z-10 flex justify-center lg:justify-end mt-10 lg:mt-10">
           <Image
-            src="/images/fotoku.png" // Pastikan gambar Anda dalam format PNG tanpa background
+            src="/images/fotoku.png"
             alt="Profile Image"
-            width={250} // Sesuaikan dengan ukuran gambar yang diinginkan
-            height={250} // Sesuaikan dengan ukuran gambar yang diinginkan
+            width={300}
+            height={300}
             className="rounded-full bg-white shadow-lg"
           />
         </div>

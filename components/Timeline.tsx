@@ -120,7 +120,8 @@ const Timeline = () => {
   ];
 
   return (
-    <div className={styles.timeline}>
+    <>
+      <div className={styles.timeline}>
       <h1 className="text-4xl font-bold mb-4">Work Experiences</h1>
       <div className={styles.timelineContainer}>
         {experiences.map((experience, index) => (
@@ -134,6 +135,8 @@ const Timeline = () => {
         ))}
       </div>
     </div>
+    </>
+
 
   );
 };
