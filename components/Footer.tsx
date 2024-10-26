@@ -69,6 +69,7 @@
 
 // export default Footer;
 'use client';
+import Link from 'next/link';
 import React from 'react';
 import { FaInstagram, FaFacebook, FaGithub, FaLinkedin, } from 'react-icons/fa';
 
@@ -79,19 +80,19 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 lg:px-20">
 
         <div className="flex justify-center mt-6 space-x-6 text-xl">
-          <a href="https://www.instagram.com/ekawdmynti/" aria-label="Instagram" className="hover:text-gray-400"><FaInstagram /></a>
-          <a href="#" aria-label="Facebook" className="hover:text-gray-400"><FaFacebook /></a>
-          <a href="https://github.com/Ekawayyyyy" aria-label="GitHub" className="hover:text-gray-400"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/ekawahyunidarmayanti" aria-label="Linkedin" className="hover:text-gray-400"><FaLinkedin /></a>
+          <Link href="https://www.instagram.com/ekawdmynti/" aria-label="Instagram" className="hover:text-gray-400"><FaInstagram /></Link>
+          <Link href="#" aria-label="Facebook" className="hover:text-gray-400"><FaFacebook /></Link>
+          <Link href="https://github.com/Ekawayyyyy" aria-label="GitHub" className="hover:text-gray-400"><FaGithub /></Link>
+          <Link href="https://www.linkedin.com/in/ekawahyunidarmayanti" aria-label="Linkedin" className="hover:text-gray-400"><FaLinkedin /></Link>
         </div>
 
         <div className="flex justify-center mt-6 space-x-4 text-sm">
-          <a href="/" className="hover:text-gray-400">Home</a>
-          <a href="/about" className="hover:text-gray-400">About</a>
-          <a href="/education" className="hover:text-gray-400">Education</a>
-          <a href="/experience" className="hover:text-gray-400">Experience</a>
-          <a href="/skills" className="hover:text-gray-400">Skills</a>
-          <a href="/contact" className="hover:text-gray-400">Contact</a>
+          <Link href="/" className="hover:text-gray-400">Home</Link>
+          <Link href="/about" className="hover:text-gray-400">About</Link>
+          <Link href="/education" className="hover:text-gray-400">Education</Link>
+          <Link href="/experience" className="hover:text-gray-400">Experience</Link>
+          <Link href="/skills" className="hover:text-gray-400">Skills</Link>
+          <Link href="/contact" className="hover:text-gray-400">Contact</Link>
         </div>
 
         <div className="mt-6 text-center text-gray-500 text-sm">
