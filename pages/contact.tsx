@@ -2,15 +2,19 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '@/components/Footer';
+import Particle from '@/components/Particle';
 
 const Contact: React.FC = () => {
   return (
     <>
     <Navbar />
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+
+    <div className='h-[88vh] bg-[url("/images/banner.jpg")] bg-cover bg-center'>
+    <Particle />
+    <div className="relative z-10 sticky flex flex-col items-center justify-center min-h-screen bg-none p-4">
        
-      <h1 className="text-3xl font-bold mb-4">Kontak Kami</h1>
-      <form className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
+      <h1 className="relative z-10 text-3xl font-bold mb-4">Kontak Kami</h1>
+      <form className=" relative z-10 w-full bg-white max-w-md p-8 rounded-lg shadow-md">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
             Nama
@@ -54,6 +58,7 @@ const Contact: React.FC = () => {
           Kirim
         </button>
       </form>
+    </div>
     </div>
     <Footer />
     </>
