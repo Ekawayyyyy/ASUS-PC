@@ -15,7 +15,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 items-center gap-8 lg:gap-20">
             <div className="flex justify-center lg:justify-end mb-6 lg:mb-0">
               <Image
-                src="/images/fotoku.png"
+                src="/images/fotoku.PNG"
                 alt="Profile Image"
                 width={250}
                 height={250}
