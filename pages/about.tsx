@@ -21,6 +21,7 @@ const About = () => {
                 height={250}
                 className="rounded-full shadow-lg bg-white"
               />
+
             </div>
 
             <div className="text-center lg:text-left">
@@ -28,10 +29,7 @@ const About = () => {
               <p className="text-base md:text-lg text-justify leading-relaxed mb-6">
                 Seorang Freshgraduate jurusan Sistem Informasi di UIN Alauddin Makassar yang memiliki minat dalam dunia
                 teknologi dan manajemen administratif. Saya memiliki pengalaman magang di Kantor Perwakilan Bank
-                Indonesia Sulawesi Selatan, sehingga saya belajar banyak tentang data entry, microsoft office, dan
-                kerjasama tim. Saat saya masih kuliah, saya bergabung dengan berbagai organisasi seperti HMJ dan
-                komunitas penerima beasiswa Bank Indonesia yaitu GenBI. Keinginan untuk belajar dan bekerja selalu hadir
-                untuk menemukan sesuatu yang dapat mengasah kemampuan dan pengembangan potensi diri.
+                Indonesia Provinsi Sulawesi Selatan, sehingga saya belajar banyak tentang data entry, microsoft office, dan kerjasama tim. Saat saya masih kuliah, saya bergabung dengan berbagai organisasi seperti HMJ dan komunitas penerima beasiswa Bank Indonesia yaitu GenBI. Keinginan untuk belajar dan bekerja selalu hadir untuk menemukan sesuatu yang dapat mengasah kemampuan dan pengembangan potensi diri.
               </p>
 
               <Link
