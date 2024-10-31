@@ -30,7 +30,7 @@ const skills = () => {
         {skillsData.map((skill) => (
           <div key={skill.name} className="flex flex-col items-center">
             <div
-              className={`${skill.color} text-6xl mb-4 transition-transform duration-300 transform hover:scale-110`}
+              className={`${skill.color} text-6xl mb-4 transition-transform duration-300 transform hover:scale-150`}
             >
               {skill.icon}
             </div>

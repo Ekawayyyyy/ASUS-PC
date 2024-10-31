@@ -39,7 +39,7 @@ const Navbar = () => {
             About
           </Link>
           <Link href="/education" className="text-black block lg:inline">
-            Education
+            Organisation
           </Link>
           <Link href="/experience" className="text-black block lg:inline">
             Experience
