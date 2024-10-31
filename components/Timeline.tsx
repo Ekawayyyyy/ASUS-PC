@@ -125,7 +125,7 @@ const experiences = [
             company={experience.company}
             date={experience.date}
             description={experience.description}
-            imageUrl={experience.imageUrl}
+            // imageUrl={experience.imageUrl}
           />
         ))}
       </div>
