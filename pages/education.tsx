@@ -100,14 +100,14 @@ const experiences = [
   {
     title: 'Direktur MSDM GenBI Komisariat UIN Alauddin Makassar',
     description: 'Mei 2022 - Mei 2023',
-    imageUrl: '/images/genbi2.jpg', // Ganti dengan path gambar yang sesuai
+    imageUrl: '/images/genbi2.JPG', // Ganti dengan path gambar yang sesuai
     width: 400, // Lebar gambar
     height: 300, // Tinggi gambar
   },
   {
     title: 'Koordinator Deputi Public Relation GenBI Komisariat UIN Alauddin Makassar',
     description: 'Mei 2021 - Mei 2022',
-    imageUrl: '/images/genbi1.jpg', // Ganti dengan path gambar yang sesuai
+    imageUrl: '/images/genbi1.JPG', // Ganti dengan path gambar yang sesuai
     width: 400,
     height: 300,
   },
