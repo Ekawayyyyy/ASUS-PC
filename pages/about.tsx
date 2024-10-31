@@ -11,7 +11,7 @@ const About = () => {
       <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center flex-grow">
         <Navbar />
         <Particle />
-        <main className="relative z-10 container mx-auto px-6 md:px-10 lg:px-20 py-10 ">
+        <main className="relative z-10 container mx-auto px-6 md:px-10 lg:px-10 py-10 ">
           <div className="grid lg:grid-cols-2 items-center gap-8 lg:gap-20">
             <div className="flex justify-center lg:justify-end mb-6 lg:mb-0">
               <Image
