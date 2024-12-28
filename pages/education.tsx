@@ -127,30 +127,31 @@ const Organization: React.FC = () => {
     <>
       <Navbar />
       <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
-     <Particle />
-      <div className=" relative z-10 sticky top-0 min-h-screen p-8">
-        <h1 className="text-4xl font-bold text-center mb-8">Organisation Experience</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {experiences.map((experience, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <Image
-                src={experience.imageUrl}
-                alt={experience.title}
-                width={experience.width} // Menggunakan lebar dari objek pengalaman
-                height={experience.height} // Menggunakan tinggi dari objek pengalaman
-                className="w-full h-60 object-cover" // Mengatur objek cover untuk gambar
-              />
-              <div className="p-4">
-                <h2 className="text-xl font-semibold">{experience.title}</h2>
-                <p className="text-gray-700 mt-2">{experience.description}</p>
+        <Particle />
+        <div className=" relative z-10 sticky top-0 min-h-screen p-8">
+          <h1 className="text-4xl font-bold text-center mb-8">Portofolio </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {experiences.map((experience, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-lg overflow-hidden"
+              >
+                <Image
+                  src={experience.imageUrl}
+                  alt={experience.title}
+                  width={experience.width} // Menggunakan lebar dari objek pengalaman
+                  height={experience.height} // Menggunakan tinggi dari objek pengalaman
+                  className="w-full h-60 object-cover" // Mengatur objek cover untuk gambar
+                />
+                <div className="p-4">
+                  <h2 className="text-xl font-semibold">{experience.title}</h2>
+                  <p className="text-gray-700 mt-2">{experience.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-      <Footer />
+        <Footer />
       </div>
     </>
   );

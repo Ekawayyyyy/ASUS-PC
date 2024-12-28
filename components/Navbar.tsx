@@ -38,8 +38,11 @@ const Navbar = () => {
           <Link href="/about" className="text-black block lg:inline">
             About
           </Link>
+          <Link href="/contact" className="text-black block lg:inline">
+            Portofolio
+          </Link>
           <Link href="/education" className="text-black block lg:inline">
-            Organisation
+            Organization
           </Link>
           <Link href="/experience" className="text-black block lg:inline">
             Experience
@@ -47,13 +50,9 @@ const Navbar = () => {
           <Link href="/skills" className="text-black block lg:inline">
             Skills
           </Link>
-          <Link href="/contact" className="text-black block lg:inline">
-            Contact
-          </Link>
         </div>
       </div>
     </div>
-    
   );
 };
 
